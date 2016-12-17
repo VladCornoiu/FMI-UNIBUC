@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+
+<head>
+
+</head>
+
+<body>
+	<script>
+	
+		var dictionar = {"I":"eu", "am":"sunt", "a":"un", "programmer":"programator"};
+		function myFirstFunction() {
+			var firstPrompt = window.prompt('Introduceti un cuvant');
+			var ok = false;
+			if (firstPrompt != null) {
+				for (value in dictionar)
+					if (value == firstPrompt) {
+						ok = true;
+						window.alert(dictionar[value]);
+						break;
+					}
+				if (ok == false) {
+					window.alert("Cuvantul nu s-a gasit");
+				}
+			}
+			var result = window.confirm("Want to go through this again?");
+			if (result) {
+				myFirstFunction();
+			}
+		}
+		
+		myFirstFunction();
+	</script>
+</body>
+
+</html>

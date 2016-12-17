@@ -1,0 +1,55 @@
+table 
+{
+	border: solid 4px black;
+	border-collapse:collapse;
+}
+
+td
+{
+	border: solid 1px black;
+	padding:20px;
+	height:10px;
+}
+
+.Wider
+{
+	width:80px;
+}
+
+.Wide
+{
+	width:40px;
+}
+
+.FirstLine td
+{
+	border-bottom:solid 4px black;
+	box-shadow: 0 4px 0px red;
+	height:22px;
+	width:10px;
+}
+
+.FirstColumn
+{
+	border-right:solid 4px black;
+	box-shadow: 4px 0px 0px red;
+	width:25px;
+}
+
+#FirstRowAndColumn
+{
+	box-shadow:4px 4px 0px red;
+	border-right: solid 4px black;
+}
+
+#SmallTable
+{
+	border: solid 4px black;
+}
+
+#SmallTable td
+{
+	border: solid 1px black;
+	width: 120px;
+	padding:5px;
+}

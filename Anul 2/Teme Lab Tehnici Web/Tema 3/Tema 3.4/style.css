@@ -1,0 +1,69 @@
+p
+{
+	color:pink;
+}
+
+body
+{
+	background-color:#EEEEEE;
+	background-image:url("img.png");
+	background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center center;
+}
+
+h1
+{
+	border-bottom: 8px solid red;
+    display: inline-block;
+	color:red;
+}
+
+h3 + p
+{
+	border: 2px dotted blue;
+	color: green;
+}
+
+h3 + p + p
+{
+	border: 2px dotted blue;
+	color: green;
+}
+
+.c1
+{
+	background-color:purple;
+}
+
+.c3
+{
+	color:#FF00FF;
+	font-weight:bold;
+	text-decoration:overline;
+}
+
+/*Ultimul lucru scris pentru o proprietate se ia in calcul pentru a defini style-ul unei clase, unul id, tag, etc */
+
+.c2
+{
+	font-style:italic;
+	text-decoration:line-through;
+}
+
+#pgf
+{
+	color:orange;
+	text-decoration:underline overline;
+}
+
+*
+{
+	outline: white dashed 3px;
+}
+
+/*h3.c3
+{
+	color:#FF00FF;
+	font-style:bold;
+}*/ /* Doar acest lucru va modifica style-ul pentru h3

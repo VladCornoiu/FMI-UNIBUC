@@ -1,0 +1,125 @@
+a
+{
+	margin-top:15vh;
+	display:inline-block;
+}
+
+img
+{
+	height:15vh;
+	width:auto;
+	transform:rotate(7deg);
+	position:relative;
+}
+
+@keyframes Move
+{
+	0%
+	{
+		left:0px;
+		top:0px;
+	}
+	
+	25%
+	{
+		left:200px;
+		top:0px;
+	}
+	
+	50%
+	{
+		left:200px;
+		top:200px;
+	}
+	
+	75%
+	{
+		left:0px;
+		top:200px;
+	}
+	
+	100%
+	{
+		left:0px;
+		top:0px;
+	}
+}
+
+#pic:hover
+{
+	animation-name:Move;
+	animation-duration:4s;
+	
+}
+
+#pic2:hover
+{
+	animation-name:Move;
+	animation-duration:7s;
+	animation-direction:alternate;
+	animation-iteration-count:3;
+}
+
+#first
+{
+	margin-left:2vw;
+}
+
+h1
+{
+	color:white;
+	background-color:blue;
+	transition:background-color 2s ease;
+}
+
+h1:hover
+{
+	background-color:red;
+	transform:rotate(10deg);
+	
+}
+
+#evantaifirst
+{
+	transform:rotate(-20deg);
+	transition:z-index 1s ease;
+}
+
+#evantaisecond
+{
+	transform:rotate(0deg);
+	transition:z-index 1s ease;
+}
+
+#evantaithird
+{
+	transform:rotate(20deg);
+	transition:z-index 1s ease;
+}
+
+#evantaifirst:hover
+{
+	z-index:101;
+	transform:scale(2,2);
+}
+
+#evantaisecond:hover
+{
+	z-index:101;
+	transform:scale(2,2);
+}
+
+#evantaithird:hover
+{
+	z-index:101;
+	transform:scale(2,2);
+}
+
+
+
+#evantai img
+{
+}
+
+
+

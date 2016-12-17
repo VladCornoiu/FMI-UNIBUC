@@ -1,0 +1,29 @@
+body
+{
+	background-image:url("https://images2.alphacoders.com/261/26102.jpg");
+}
+img
+{
+	width:100%;
+	height:auto;
+	border-radius:100%;
+	
+}
+#Home
+{
+	margin-left:23%;
+	width:10%;
+	float:left;
+}
+
+#TOC, #Links
+{
+	margin-left:8%;
+	width:10%;
+	float:left;
+}
+
+figcaption h2
+{
+	color:white;
+}

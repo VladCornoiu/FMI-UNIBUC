@@ -1,0 +1,23 @@
+body  
+{
+    background-image: url("https://images4.alphacoders.com/636/thumb-1920-636727.jpg");
+}
+ul li:nth-child(1) {
+    list-style-image: url('https://images-na.ssl-images-amazon.com/images/M/MV5BNTczMzk1MjU1MV5BMl5BanBnXkFtZTcwNDk2MzAyMg@@._V1_UX32_CR0,0,32,44_AL_.jpg');
+}
+ul li:nth-child(2) {
+    list-style-image: url('https://images-na.ssl-images-amazon.com/images/M/MV5BMTQ4MTcwODc0MV5BMl5BanBnXkFtZTgwMzkxMTMwNzE@._V1_UY44_CR17,0,32,44_AL_.jpg');
+}
+ul li:nth-child(3) {
+    list-style-image: url('https://images-na.ssl-images-amazon.com/images/M/MV5BNjMzNTAxNDUwNV5BMl5BanBnXkFtZTcwMjMyNjI5MQ@@._V1_UY44_CR1,0,32,44_AL_.jpg');
+}
+ul li:nth-child(4) {
+    list-style-image: url('https://images-na.ssl-images-amazon.com/images/M/MV5BMTM0OTI4NTMzN15BMl5BanBnXkFtZTcwNTgwNzMzNg@@._V1_UX32_CR0,0,32,44_AL_.jpg');
+}
+ul li:nth-child(5) {
+    list-style-image: url('https://images-na.ssl-images-amazon.com/images/M/MV5BMTM1Mzk4ODY5Ml5BMl5BanBnXkFtZTYwMzA1OTU3._V1_UY44_CR12,0,32,44_AL_.jpg');
+}
+#Story h4
+{
+	align-text:Justify; 
+}

@@ -1,0 +1,58 @@
+body 
+{
+    background-image:url("http://cdn.vertex42.com/WordTemplates/images/recipe-card-1_4x6.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center center;
+}
+
+header h1 {
+	margin-left:30%;
+}
+
+#Inv 
+{
+	color: #800000;
+	margin-left:15%;
+}
+
+#Ustensile
+{
+	margin-left:15%;
+}
+#tabel
+{
+	margin-left:15%;
+	margin-right:0;
+	width:20%;
+	float:left;
+}
+#preparare
+{
+	width:60%;
+	float:left;
+}
+#preparare h3
+{
+	color:#ff9900;
+}
+table 
+{
+	color: #ffbf00;
+	border: solid 5px #c63939;
+	background-color: #00ffff;
+}
+
+th 
+{
+	padding: 20px;
+	border: solid 2px #c63939;
+	color: #7A3E48;
+}
+
+td 
+{
+	padding: 10px;
+	border: solid 2px #c63939;
+}
+

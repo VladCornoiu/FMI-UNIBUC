@@ -1,0 +1,360 @@
+html {
+    font-family: "Lucida Sans", sans-serif;
+	background: url(Images/back.jpg) no-repeat center center fixed;
+	background-size:cover;
+}
+
+logo {
+	background-repeat:no-repeat;
+	width:50%;
+	height:auto;
+}
+
+.OKC {
+	margin: 15px 0 0 0;
+	display: inline-block;
+	background:url("Images/OKC.svg") 0 0 no-repeat;
+	background-size:100%;
+	width:100%;
+	height:70vh;
+	float:left;
+}
+
+.GSW {
+	margin: 15px 0 0 0;
+	display: inline-block;
+	background:url("Images/GSW.svg") 0 0 no-repeat;
+	background-size:100%;
+	width:100%;
+	height:70vh;
+	float:left;
+}
+
+.SAS {
+	margin: 15px 0 0 0;
+	display: inline-block;
+	background:url("Images/SAS.svg") 0 0 no-repeat;
+	background-size:100%;
+	width:100%;
+	height:70vh;
+	float:left;
+}
+
+.CLE {
+	margin: 15px 0 0 0;
+	display: inline-block;
+	background:url("Images/CLE.svg") 0 0 no-repeat;
+	background-size:100%;
+	width:100%;
+	height:70vh;
+	float:left;
+}
+
+.HOU {
+	margin: 15px 0 0 0;
+	display: inline-block;
+	background:url("Images/HOU.svg") 0 0 no-repeat;
+	background-size:100%;
+	width:100%;
+	height:70vh;
+	float:left;
+}
+
+.LAC {
+	margin: 15px 0 0 0;
+	display: inline-block;
+	background:url("Images/LAC.svg") 0 0 no-repeat;
+	background-size:100%;
+	width:100%;
+	height:70vh;
+	float:left;
+}
+
+p {
+	padding: 6vw 0 0 0;
+	color:white;
+	font-size:20px;
+}
+
+iframe {
+	width:100%;
+	height:615px;
+}
+
+.enlarge {
+    transition: all .4s ease-out;
+}
+
+.enlarge:hover {
+    transform: scale(1.5);
+}
+
+video {
+	padding: 20vw 0 0 0;
+}
+
+.red {
+	color:red;
+}
+
+.blue {
+	color: blue;
+}
+
+.grey {
+	color:grey;
+}
+
+.white {
+	color:white;
+}
+
+h4 {
+	padding:0;
+	color:white;
+	font-family:cursive;
+	text-align:justify;
+	font-size: 20px;
+}
+
+pre {
+	display:inline-block;
+	margin:0;
+	
+}
+
+span {
+	margin: 50px auto;
+	text-align: center;
+	text-shadow: -1px -1px 0px rgba(255,255,255,0.3), 1px 1px 0px rgba(0,0,0,0.8);
+	opacity: 0.7;
+	font: 700 6vw 'Bitter';
+}
+
+.nav-nba-logo {
+	margin: 15px 0 0 0;
+	display: inline-block;
+	background:url("nav_logoman.svg") 0 0 no-repeat;
+	background-size:100%;
+	width:60px;
+	height:26px;
+	float:left;
+}
+
+a {
+	color: #333;
+	text-decoration: none;
+	line-height: inherit;
+	cursor:pointer;
+}
+
+.champions_video {
+	padding:30% 0 0 0;
+}
+
+h2 {
+	font: 700 6vw 'Bitter';
+	color:grey;
+	text-align:center;
+}
+
+.nba-nav {
+	background: #333;
+	display:flex;
+	width: 100%;
+	z-index:101;
+	height:100%;
+	font-size: 1rem;
+}
+
+.nba-nav-left {
+	display: flex;
+}
+
+.nba-nav-right li {
+	display:inline-block;
+	margin: 0 70px;
+	padding: 0;
+	cursor:pointer;
+	border-bottom: 2px solid transparent;
+	transition: 500ms;
+	float:left;
+}
+li a, .dropbtn {
+	color:white;
+	display:inline-block;
+	text-align:center;
+	padding: 0;
+	text-decoration:none;
+	border:none;
+}
+
+.small {
+	width:40%;
+	height:auto;
+	padding:30% 0 0 30%;
+}
+
+.big {
+	width:80%;
+	height:auto;
+}
+
+.dropdown {
+	display:inline-block;
+	position: relative;
+	z-index:1001;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.desc {
+	padding: 15px;
+	text-align:center;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.nba-nav-right li:hover {
+	border-bottom: 2px solid white;
+}
+
+.nba-nav-button {
+	width: 22px;
+	background:url("nav_open.svg") 0 0 no-repeat;
+	height: 15px;
+	margin: 20px;
+	background-size: 22px;
+	cursor:pointer;
+	float:left;
+	border:0;
+}
+
+.separator {
+	float:left;
+	display:inline-block;
+	height: 30px;
+	width: 2px;
+	background-color: white;
+	margin: 13px 20px 0 0;
+}
+
+.middle {
+	-webkit-filter: drop-shadow(5px 5px 5px #222);
+	filter: drop-shadow(5px 5px 5px #222);
+	padding: 10vw 0 0 4vw;
+	width:100%;
+	height:auto;
+}
+
+.row, 
+.column {
+    box-sizing: border-box;
+}
+
+.row:before,
+.row:after {
+	content: " ";
+	display:table;
+}
+
+.row:after {
+	clear: both;
+}
+
+.column {
+	position: relative;
+	float: left;
+}
+
+.column + .column {
+	margin-left: 1.6%;
+}
+
+.column-1 {
+    width: 6.86666666667%;
+}
+
+.column-2 {
+    width: 15.3333333333%;
+}
+
+.column-3 {
+    width: 23.8%;
+}
+
+.column-4 {
+    width: 32.2666666667%;
+}
+
+.column-5 {
+    width: 40.7333333333%;
+}
+
+.column-6 {
+    width: 49.2%;
+}
+
+.column-7 {
+    width: 57.6666666667%;
+}
+
+.column-8 {
+    width: 66.1333333333%;
+}
+
+.column-9 {
+    width: 74.6%;
+}
+
+.column-10 {
+    width: 83.0666666667%;
+}
+
+.column-11 {
+    width: 91.5333333333%;
+}
+
+.column-12 {
+    width: 100%;
+}
+
+@media only screen and (max-width: 540px) {
+    .column-1, 
+    .column-2, 
+    .column-3, 
+    .column-4, 
+    .column-5, 
+    .column-6, 
+    .column-7, 
+    .column-8, 
+    .column-9, 
+    .column-10, 
+    .column-11, 
+    .column-12 {
+        width: auto;
+        float: none;
+    }
+
+    .column + .column {
+        margin-left: 0;
+    }
+}

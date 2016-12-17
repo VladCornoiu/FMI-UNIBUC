@@ -1,0 +1,2 @@
+descompunere.Pair
+descompunere.Descompunere

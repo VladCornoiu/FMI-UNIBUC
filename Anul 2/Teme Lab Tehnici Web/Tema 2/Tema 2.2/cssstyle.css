@@ -1,0 +1,32 @@
+body {
+	background:#df9f9f;
+}
+
+#Mypic 
+{
+	width:21%;
+	height:auto;
+	float:left;
+}
+
+h4 {
+	color:gray;
+}
+
+#About p
+{
+	width:73%;
+	float:left;
+}
+
+#Social
+{
+	width:1%;
+	height:auto;
+	float:left;
+}
+
+#About 
+{
+	height:400px;
+}

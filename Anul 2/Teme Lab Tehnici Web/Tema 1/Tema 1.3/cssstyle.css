@@ -1,0 +1,35 @@
+#tags
+{
+	background-color:black;
+	width:13%;
+	position:fixed;
+	float:left;
+}
+#Food
+{
+	margin:260px;
+	border:solid;
+	width:50%;
+	float:left;
+}
+#Food, #tags
+{
+	display:inline-block;
+}
+img
+{
+	height: 200px;
+	width: auto;
+}
+
+#Food hr
+{
+	background-color:red;
+	height:5px;
+}
+
+body
+{
+	background-image:url(Food/background.jpg);
+}
+
