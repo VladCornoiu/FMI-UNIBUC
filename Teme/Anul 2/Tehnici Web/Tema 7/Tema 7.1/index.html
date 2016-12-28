@@ -1,0 +1,109 @@
+<html>
+
+  <head>
+
+    <script>
+function as_node(str) {
+  return document.createTextNode(str);
+}
+function as_el_node(type, str) {
+  var el = document.createElement(type);
+  el.appendChild(as_node(str));
+  return el;
+}
+function genereaza_cuprins() {
+  var body = document.body;
+  var cuprins = document.createElement("ul");
+  {
+    var li = document.createElement("li");
+    li.appendChild(as_el_node("h1", "titlu"));
+    li.appendChild(as_el_node("h2", "descendent direct"));
+    cuprins.appendChild(li);
+  }
+  {
+    var li = document.createElement("li");
+    li.appendChild(as_el_node("h1","Laborator"));
+    li.appendChild(as_el_node("h2", "Lab 1"));
+    li.appendChild(as_el_node("h2", "Lab 2"));
+    li.appendChild(as_el_node("h2", "Lab 3"));
+    li.appendChild(as_el_node("h2", "Lab 4"));
+    cuprins.appendChild(li);
+  }
+  do {
+    var answer = prompt("Unde sa inseram textul (sfarsit / inceput) ?");
+    if (answer == "sfarsit") {
+      body.appendChild(cuprins);
+      break;
+    } else if (answer == "inceput") {
+      body.insertBefore(cuprins, body.firstChild);
+      break;
+    } else if (answer == null) {
+      break;
+    }
+  } while(true);
+  
+  console.log("in genereaza_cuprins()");
+}
+function baga_la_span() {
+  var spans = document.getElementsByTagName("span");
+  for(var i = 0; i < spans.length; ++i) {
+    var span = spans[i];
+    span.className += " highlight";
+  }
+}
+function my_alert(text) {
+  var box = document.createElement("div");
+  box.className = "my_alert";
+  box.appendChild(as_el_node("p", text));
+  var button = as_el_node("button", "OK");
+  button.onclick = function() {
+    var rm = document.getElementsByClassName('my_alert');
+    for(var i = 0; i < rm.length; ++i) {
+      var el = rm[i];
+      el.remove();
+    }
+  };
+  box.appendChild(button);
+  document.body.appendChild(box);
+}
+    </script>
+
+<style>
+.highlight {
+  color: red;
+}
+.my_alert {
+  position: fixed;
+  top: 30vh;
+  left: 30vw;
+  border-style: solid;
+  border-color: red;
+    background-color: Tan;
+  text-align: center;
+  width: 30vh;
+  height: 20vh;
+}
+.my_alert button {
+  margin-top: 6vh;
+}
+</style>
+
+  </head>
+
+<body>
+
+  <button onclick="genereaza_cuprins()"> 
+    Genereaza curpins
+  </button>
+
+  <span>
+    <p> Niste paragraf </p>
+  </span>
+
+  <span>
+    <p> Mai mult paragraf </p>
+  </span>
+
+</body>
+
+</html>
