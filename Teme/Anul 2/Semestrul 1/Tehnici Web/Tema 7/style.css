@@ -1,0 +1,14 @@
+.highlight {
+	color: blue;
+}
+
+.hideAlert {
+	display: none;
+}
+
+.showAlert {
+	display: block;
+	background-color: blue;
+	position: fixed;
+	left: 250px;
+}
